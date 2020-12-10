@@ -1,0 +1,1049 @@
+{
+  "data": [
+    {
+      "modelID": "dtmi:com:planb:company;1",
+      "ID": "PlanB",
+      "properties": [
+        {
+
+          "name": "companyName",
+          "value": "PlanB. GmbH"
+        },
+        {
+          "name": "TaxID",
+          "value": "DE250875731"
+
+        }
+      ]
+
+    },
+
+    {
+      "modelID": "dtmi:com:planb:venue;1",
+      "ID": "Hue",
+      "properties": [
+        {
+
+          "name": "venueName",
+          "value": "Huettlingen HQ"
+        },
+        {
+          "name": "place",
+          "value": "Huettlingen"
+        },
+        {
+          "name": "postcode",
+          "value": "73460 "
+        },
+        {
+          "name": "street",
+          "value": "Kocherstraﬂe 15"
+        }
+      ]
+
+    },
+
+    {
+      "modelID": "dtmi:com:planb:venue;1",
+      "ID": "Col",
+      "properties": [
+        {
+          "name": "venueName",
+          "value": "Cologne Office"
+        },
+        {
+          "name": "place",
+          "value": "Cologne"
+        },
+        {
+          "name": "postcode",
+          "value": "56734"
+        },
+        {
+          "name": "street",
+          "value": "Hessenstraﬂe 5"
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:venue;1",
+      "ID": "Wes",
+      "properties": [
+        {
+          "name": "venueName",
+          "value": "Westhausen"
+        },
+        {
+          "name": "place",
+          "value": "Westhausen"
+        },
+        {
+          "name": "postcode",
+          "value": "56734"
+        },
+        {
+          "name": "street",
+          "value": "Westhausenstraﬂe 5"
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:floor;1",
+      "ID": "Hue-0",
+      "properties": [
+        {
+          "name": "floorName",
+          "value": "Ground Level / Entrance"
+        },
+        {
+          "name": "storey",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:floor;1",
+      "ID": "Hue-1",
+      "properties": [
+        {
+          "name": "floorName",
+          "value": "First Floor"
+        },
+        {
+          "name": "storey",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-1-IoTLab",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "IoT Laboratory"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": true
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT31"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-1-ServerRoom",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Server Room"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT22"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-1-Accounting",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Accounting"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT21"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-1-Accounting2",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Accounting2"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT29"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-1-MLTower",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Machine Learning office"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT28"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-1-ESB",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "ESB office"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT30"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-0-ConferenceRoom1",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Conference Room"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT18"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-1-ConferenceRoom2",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Conference Room 2"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT20"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-0-Kitchen",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Kitchen"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT11"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-0-ZeissOffice",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Zeiss Office"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT17"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-0-Raum02",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Raum02"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT14"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-0-ToiletteHerren",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Toilette Herren"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT16"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-0-ToiletteDamen",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Toilette Damen"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT12"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-0-Raum03",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Raum03"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT13"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-1-Raum11",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Raum11"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT23"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-1-Raum08",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Raum08"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT24"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-1-Grossraumbuero",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Groﬂraumbuero"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT26"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "modelID": "dtmi:com:planb:room;1",
+      "ID": "Hue-0-Eingang",
+      "properties": [
+        {
+
+          "name": "roomName",
+          "value": "Eingang"
+        },
+        {
+          "name": "temperature",
+          "value": 0.0
+        },
+        {
+          "name": "humidity",
+          "value": 0.0
+        },
+        {
+          "name": "occupancy",
+          "value": false
+        },
+        {
+          "name": "unitNameMaps",
+          "value": "UNIT19"
+        },
+        {
+          "name": "co2ThresholdRed",
+          "value": 0.0
+        },
+        {
+          "name": "co2ThresholdYellow",
+          "value": 0.0
+        },
+        {
+          "name": "co2",
+          "value": 0.0
+        },
+        {
+          "name": "light",
+          "value": 0.0
+        },
+        {
+          "name": "loudness",
+          "value": 0.0
+        },
+        {
+          "name": "voc",
+          "value": 0.0
+        }
+      ]
+    }
+  ]
+
+
+}

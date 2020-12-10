@@ -1,0 +1,18 @@
+{
+  "@id": "dtmi:com:planb:window;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "Window",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "windowId",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "isOpen",
+      "schema": "boolean"
+    }
+  ]
+}

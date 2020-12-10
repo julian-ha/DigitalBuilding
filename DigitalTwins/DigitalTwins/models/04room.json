@@ -1,0 +1,72 @@
+{
+  "@id": "dtmi:com:planb:room;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "Room",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "hasPlants"
+    },
+    {
+      "@type": "Relationship",
+      "name":  "hasWindows"
+    },
+    {
+      "@type": "Property",
+      "name": "roomName",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "humidity",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "occupancy",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "unitNameMaps",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "co2ThresholdYellow",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "co2ThresholdRed",
+      "schema":  "double"
+    },
+    {
+      "@type": "Property",
+      "name": "co2",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "loudness",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "voc",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "light",
+      "schema":  "double"
+    }
+  ]
+}
+   

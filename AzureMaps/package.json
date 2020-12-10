@@ -1,0 +1,27 @@
+{
+  "name": "azuremaps",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@azure/digital-twins": "^1.0.0-preview.1",
+    "@azure/identity": "^1.1.0",
+    "@azure/ms-rest-browserauth": "^1.0.1",
+    "@azure/ms-rest-nodeauth": "^3.0.6",
+    "azure-iot-common": "^1.12.7",
+    "azure-iothub": "^1.13.1",
+    "azure-maps-indoor": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-handlebars": "^5.1.0",
+    "hbs": "^4.1.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "ms-rest-browserauth": "^0.1.0",
+    "ms-rest-js": "^1.0.439"
+  }
+}

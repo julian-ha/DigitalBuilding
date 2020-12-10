@@ -1,0 +1,22 @@
+{
+  "@id": "dtmi:com:planb:company;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "Company",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "hasVenues"
+    },
+    {
+      "@type": "Property",
+      "name": "companyName",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "TaxID",
+      "schema": "string"
+    }
+  ]
+}

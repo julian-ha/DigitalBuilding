@@ -1,0 +1,33 @@
+{
+  "@id": "dtmi:com:planb:venue;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "Venue",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "hasFloors"
+    },
+    {
+      "@type": "Property",
+      "name": "venueName",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "place",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "postcode",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "street",
+      "schema": "string"
+    }
+
+  ]
+}

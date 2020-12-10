@@ -1,0 +1,30 @@
+{
+  "@id": "dtmi:com:planb:room;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "Room",
+  "extends": "dtmi:com:planb:floor;1",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "roomName",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "humidity",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "occupancy",
+      "schema": "boolean"
+    }
+  ]
+}
+   

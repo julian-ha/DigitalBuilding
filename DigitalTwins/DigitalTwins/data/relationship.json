@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "sourceID": "PlanB",
+      "targetID": "Hue",
+      "relName": "hasVenues"
+    },
+    {
+      "sourceID": "PlanB",
+      "targetID": "Col",
+      "relName": "hasVenues"
+    },
+    {
+      "sourceID": "PlanB",
+      "targetID": "Wes",
+      "relName": "hasVenues"
+    },
+    {
+      "sourceID": "Hue",
+      "targetID": "Hue-0",
+      "relName": "hasFloors"
+    },
+    {
+      "sourceID": "Hue",
+      "targetID": "Hue-1",
+      "relName": "hasFloors"
+    },
+    {
+      "sourceID": "Hue-0",
+      "targetID": "Hue-0-Kitchen",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-0",
+      "targetID": "Hue-0-ZeissOffice",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-0",
+      "targetID": "Hue-0-ConferenceRoom1",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-1",
+      "targetID": "Hue-1-IoTLab",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-1",
+      "targetID": "Hue-1-MLTower",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-1",
+      "targetID": "Hue-1-ESB",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-1",
+      "targetID": "Hue-1-Accounting",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-1",
+      "targetID": "Hue-1-Accounting2",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-1",
+      "targetID": "Hue-1-ConferenceRoom2",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-1",
+      "targetID": "Hue-1-ServerRoom",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-1",
+      "targetID": "Hue-1-Raum11",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-1",
+      "targetID": "Hue-1-Raum08",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-1",
+      "targetID": "Hue-1-Grossraumbuero",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-0",
+      "targetID": "Hue-0-Raum02",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-0",
+      "targetID": "Hue-0-Raum03",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-0",
+      "targetID": "Hue-0-ToiletteDamen",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-0",
+      "targetID": "Hue-0-ToiletteHerren",
+      "relName": "hasRooms"
+    },
+    {
+      "sourceID": "Hue-0",
+      "targetID": "Hue-0-Eingang",
+      "relName": "hasRooms"
+    }
+
+
+
+
+  ]
+
+}

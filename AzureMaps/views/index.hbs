@@ -1,0 +1,106 @@
+
+<section class="section">
+        <h1 class="title is-4">Smart Office PlanB.</h1>
+        <div class="columns">
+            <div class="column is-9">
+                <div class="map-container">
+                    <div id="map-id"></div>
+                </div>
+            </div>
+            <div class="column is-3">
+
+                <div class="field">
+                    <div class="select is-fullwidth">
+                        <select onchange="CreateIndoorMap(this.value)">
+                            <option value="bdd22a80-b40e-e024-ce8c-8715f80d3051" selected>Temperature</option>
+                            <option value="9bf3e401-8039-a840-81fe-8db40467f3f3">Occupancy</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="section has-background-info">
+                    <h2 class="title is-5 is-link">Explanation:</h2>
+                    <p class="subtitle is-5">temperature data:</p>
+                    <div>
+                        <p><b>
+                            <span style="color: #00204e;">under 18 °C</span> <br>
+                            <span style="color: #0278da;">18 - 20 °C</span> <br>
+                            <span style="color: #187d1d;">20 - 23 °C</span> <br>
+                            <span style="color: #fef200">23 - 26 °C</span> <br>
+                            <span style="color: #fe8c01">26 - 29 °C</span> <br>
+                            <span style="color: #e71123">above 29 °C</span>
+                        </b></p>
+                    </div>  
+                </div>
+                <br>
+                <div class="has-background-light section">
+                    <h2 class="title is-5">Additional Maps Data:</h2>
+                    <div id="feature-data-container">
+                        <p>
+                            Room Name: <span id="data-room-name"></span> <br>
+                            Room Category: <span id="data-room-category"></span> <br>
+                            UnitID: <span id="data-unit-id"></span>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="has-background-light section">
+                    <h2 class="title is-5">twin Data:</h2>
+                    <div id="feature-data-container">
+                        <p class="has-text-danger" id="no-twin-data" style="">No twin detected for this space :(</p>
+                      <div id="twin-data" style="display: none;"> 
+                            <p>
+                            Room ID: <span id="twin-data-id"></span> <br>
+                            Room Name: <span id="twin-data-name"></span> <br>
+                            CO2 Threshold: <span id="twin-data-threshold"></span> ppm <br>
+                            Temperature: <span id="twin-data-temperature"></span> °C <br>
+                            Humidity: <span id="twin-data-humidity"></span> % <br>
+                            Occupancy: <span id="twin-data-occupancy"></span>
+                        </p>
+                        <br>
+                    <button class="button is-link is-rounded" onclick="toggleModal('c2d-modal')">Send C2D-Message</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    
+</section>
+
+
+
+
+<!-- Modal -->
+
+<div class="modal" id="c2d-modal">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <!-- Any other Bulma elements you want -->
+    <article class="message is-link">
+        <div class="message-header">
+            <p>Change Threshold value for Carbon-dioxide</p>
+            <button class="delete" aria-label="delete" onclick="toggleModal('c2d-modal')"></button>
+        </div>
+        <div class="message-body">
+            <form>
+            <div class="field">
+                <label class="label">C02 Threshold Value Red</label>
+                <div>
+                    <input type="number" placeholder="1000" id="input-threshold-red-carbon-dioxide" class="input">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">C02 Threshold Value Yellow</label>
+                <div>
+                    <input type="number" placeholder="800" id="input-threshold-yellow-carbon-dioxide" class="input">
+                </div>
+            </div>
+            </form>
+            <br>
+            <button class="button is-link is-rounded" onclick="sendC2DMessage()">Submit</button>
+           
+        </div>
+    </article>
+  </div>
+  <button class="modal-close is-large" aria-label="close"  onclick="toggleModal('c2d-modal')"></button>
+</div>
+

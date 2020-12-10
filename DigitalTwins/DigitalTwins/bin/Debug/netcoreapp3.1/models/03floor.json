@@ -1,0 +1,22 @@
+{
+  "@id": "dtmi:com:planb:floor;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "Floor",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "hasRooms"
+    },
+    {
+      "@type": "Property",
+      "name": "floorName",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "storey",
+      "schema": "string"
+    }
+  ]
+}
